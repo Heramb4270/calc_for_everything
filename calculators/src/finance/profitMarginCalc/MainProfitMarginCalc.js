@@ -1,3 +1,4 @@
+
 import * as React from "react";
 import { useState } from "react";
 import InputAdornment from "@mui/material/InputAdornment";
@@ -356,3 +357,19 @@ export default function MainProfitMarginCalc() {
     </Container>
   );
 }
+
+import React from 'react';
+import { Container, Typography } from '@mui/material';
+
+function MainProfitMarginCalc(){
+    return(
+        <Container maxWidth="lg" sx={{ bgcolor: '#eeeeee', minHeight: '90vh', paddingY:"10" }}>
+            <Typography pt={1} variant='h5' sx = {{textAlign: "center"}}>Profit Margin Calculator</Typography>
+            <hr/>
+            <br/>
+        </Container>
+    )
+}
+
+export default MainProfitMarginCalc;
+
