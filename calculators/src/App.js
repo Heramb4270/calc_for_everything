@@ -67,7 +67,6 @@ import MainChemicalKineticsCalc from "./chemistry/chemicalKineticsCalc/MainChemi
 import MainNOROperator from "./computer_science/norOperator/MainNOROperator";
 import MainNANDOperator from "./computer_science/nandOperator/MainNANDOperator";
 import MainCodeTimeComplexityCalc from "./computer_science/codeTimeComplexityCalc/MainCodeTimeComplexityCalc";
-import MainProfitMarginCalc from "./finance/profitMarginCalc/MainProfitMarginCalc";
 
 import Navbar from './Navbar';
 import Home from './Home';
@@ -336,7 +335,7 @@ function App() {
 
 
             <Route path="currencyconverter" element={<MainCurrencyConverter />} />
-            <Route path="profitmargincalc" element={<MainProfitMarginCalc />} />
+
 
             {/* Health */}
             <Route path="bmi" element={<MainBMI />} />
